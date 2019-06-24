@@ -2,7 +2,7 @@
 import random
 
 # Define variables 
-name = "Greg"   
+name = "Nidhi"   
 weather = "cloudy"
 flag=1
 
@@ -18,6 +18,11 @@ responses = {
       "the weather is {0}".format(weather),
       "it's {0} today".format(weather)
     ],
+  "what is your hobby?":[
+      "I love to play Gitar",
+      "I like reading books",
+      "I love nightouts"
+  ],
   "default": ["default message"]
 }
 
